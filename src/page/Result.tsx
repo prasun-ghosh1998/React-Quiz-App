@@ -22,7 +22,7 @@ const Result = () => {
       <CardContent>
         <Typography variant="h4">Quiz Completed </Typography>
 
-        <Typography mt={2}>
+        <Typography sx={{mt:2}}>
           Score: {score} / {questions.length}
         </Typography>
 

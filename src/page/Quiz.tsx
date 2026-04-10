@@ -34,7 +34,7 @@ const Quiz = () => {
       <CardContent>
         <ProgressBar value={progress} />
 
-        <Typography mt={2}>
+        <Typography sx={{mt:2}}>
           Q{currentQuestion + 1}. {question.question}
         </Typography>
 
